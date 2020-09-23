@@ -37,12 +37,12 @@
   * By default, nothing is shared properly.
 * Data is held inside a "bucket", tied to a region, which is then 
   replicated across different AZs in that region.
-* https://awsexamplebucket/s3-us-west-2.amazonaws.com/docs/hello.txt
-  * Bucket Name: awsexamplebucket
-    * Must be globally unique and DNS compliant.
-  * Region-specific-endpoint: s3-us-west-2.amazonaws.com
-  * Object Key: docs/hello.txt
-    * Should be using characters that are safe for URLs.
+  * https://awsexamplebucket/s3-us-west-2.amazonaws.com/docs/hello.txt
+    * Bucket Name: awsexamplebucket
+      * Must be globally unique and DNS compliant.
+    * Region-specific-endpoint: s3-us-west-2.amazonaws.com
+    * Object Key: docs/hello.txt
+      * Should be using characters that are safe for URLs.
 * Common Use Cases:
   * Storing (common) application data/assets
   * Static web hosting
