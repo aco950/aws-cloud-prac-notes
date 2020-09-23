@@ -42,3 +42,18 @@
 * Allows for resiliency in the face of most failures, natural disasters,
   and system failure.
 
+## Fault Tolerance
+* A system's ability to remain operational, even if some of that
+  system's components fail.
+
+## High Availability:
+* Ensures that your systems are always functioning and accessible, and
+  that downtime is minimized as much as possible, without the need for
+  human intervention.
+
+## Security
+* AWS customers retain complete control over their data.
+* This facilitates meeting regional compliance and data-residency
+  requirements.
+* Data centers are staffed by security 24 x 7.
+
