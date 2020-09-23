@@ -46,7 +46,7 @@
 * A system's ability to remain operational, even if some of that
   system's components fail.
 
-## High Availability:
+## High Availability
 * Ensures that your systems are always functioning and accessible, and
   that downtime is minimized as much as possible, without the need for
   human intervention.
