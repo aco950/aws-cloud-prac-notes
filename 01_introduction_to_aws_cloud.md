@@ -34,10 +34,10 @@
 * To achieve reliability, your system must be able to handle changes
   in demand, detect failures and do self-healing.
 
-## Regions:
+## Regions
 * A separate geographic area that has multiple, isolated locations.
 
-## Availability Zones:
+## Availability Zones
 * The multiple, isolated locations within AWS regions.
 * Allows for resiliency in the face of most failures, natural disasters,
   and system failure.
