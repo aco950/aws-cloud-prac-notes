@@ -17,3 +17,8 @@
     * Global reach in just moments.
     * Decrease latency.
 
+## Agility:
+* Increasing speed.
+* Ease of experimentation.
+* Cultivating a culture of innovation.
+
