@@ -22,8 +22,15 @@
 * Ease of experimentation.
 * Cultivating a culture of innovation.
 
-## Elasticity:
+## Elasticity
 * The power to scale up as the workload grows and shut down resources
   that are no longer needed.
 * The ability to quickly deploy new applications..
+
+## Reliability
+* The ability of a system to recover from infrastructure or service
+  failures.
+* The ability to acquire computing resources to meet demand and mitigate   disruptions.
+* To achieve reliability, your system must be able to handle changes
+  in demand, detect failures and do self-healing.
 
