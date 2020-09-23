@@ -17,8 +17,13 @@
     * Global reach in just moments.
     * Decrease latency.
 
-## Agility:
+## Agility
 * Increasing speed.
 * Ease of experimentation.
 * Cultivating a culture of innovation.
+
+## Elasticity:
+* The power to scale up as the workload grows and shut down resources
+  that are no longer needed.
+* The ability to quickly deploy new applications..
 
