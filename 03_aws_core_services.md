@@ -6,7 +6,7 @@
     in order to access the EC2 instance.
 
 ## Amazon Elastic Block Store (EBS)
-* Pay as you use.
+* Pay as you go (i.e., use).
 * Choose between HDD and SSD types.
 * Persistent and customizable block storage for EC2 instances.
 * Replicated in the same AZ.
@@ -24,4 +24,32 @@
 * Volumes can also be tagged.
   * You can drill down billing per tag, not only with storage, but also 
     with other AWS resources that support tags.
+
+## Amazon Simple Storage Service (S3)
+* Fully-managed storage service that provides a simple API for storing
+  and retrieving data.
+* The data you store in S3 isn't associated with any server and you 
+  don't have to manage any infrastructure yourself.
+* S3 can hold trillions of objects, of any data file.
+  * Data is automatically managed, along with throughput.
+* Access anytime or anywhere via low-latency, via HTTP/S.
+* Rich security controls.
+  * By default, nothing is shared properly.
+* Data is held inside a "bucket", tied to a region, which is then 
+  replicated across different AZs in that region.
+* https://awsexamplebucket/s3-us-west-2.amazonaws.com/docs/hello.txt
+  * Bucket Name: awsexamplebucket
+    * Must be globally unique and DNS compliant.
+  * Region-specific-endpoint: s3-us-west-2.amazonaws.com
+  * Object Key: docs/hello.txt
+    * Should be using characters that are safe for URLs.
+* Common Use Cases:
+  * Storing (common) application data/assets
+  * Static web hosting
+  * Backup and disaster recovery.
+    * You can do cross-region replication.
+  * Staging area for Big Data
+    * Data stored here can be queried in place and loaded elsewhere and 
+      with different tools/services.
+  * Via CLI, data can be uploaded, synchronized, etc.
 
