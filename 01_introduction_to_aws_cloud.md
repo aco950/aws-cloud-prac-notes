@@ -4,6 +4,7 @@ Cloud Computing
 * The on-demand delivery of IT resources and applications via the 
     Internet.
 
+
 Advantages:
 * We can access servers, databases, storage, and higher-level 
   application components in seconds. 
