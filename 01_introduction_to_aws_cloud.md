@@ -5,6 +5,7 @@ Cloud Computing
     Internet.
 
 
+
 Advantages:
 * We can access servers, databases, storage, and higher-level 
   application components in seconds. 
