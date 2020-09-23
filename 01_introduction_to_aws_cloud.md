@@ -4,7 +4,7 @@
 * The on-demand delivery of IT resources and applications via the 
     Internet.
 
-## Advantages:
+### Advantages:
 * We can access servers, databases, storage, and higher-level 
   application components in seconds. 
 * Resources can be treated as temporary and disposable.
