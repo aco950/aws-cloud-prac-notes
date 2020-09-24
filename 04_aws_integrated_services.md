@@ -137,3 +137,20 @@
   * Choose your database
   * Set and adjust Auto Scaling
 
+## Amazon Simple Notification Service (SNS)
+* Flexible, fully-managed pub/sub messaging and mobile communications
+  service.
+* Coordinates the delivery of messages to subscribing endpoints and
+  clients.
+* Easy to set up, operate and send reliable communications.
+* Allows for the decoupling and scaling of microservices, distributed
+  systems and serverless applications.
+* Allows microservices to talk to one another.
+* Allows for event notifications to be sent.
+* Steps:
+  * Create a topoc
+  * Create platform application
+  * Create a subscription
+  * Publish message
+  * Publish text message (SMS)
+
