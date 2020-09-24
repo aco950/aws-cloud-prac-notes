@@ -106,3 +106,17 @@
     * Use the technology approach that best aligns with what you're
       trying to achieve.
 
+## Cost Optimization Pillar
+* Use cost-effective resources
+  * A fully cost-optimized system will use all resources it has to
+    achieve the best outcome at the lowest possible price point, all
+    while still meeting your functional requirements.
+* Matching supply with demand
+* Increase expenditure awareness
+  * Being fully aware and cognizant of what spending and cost drivers
+    are happening with your business is critical, so having the
+    ability to see, understand, and break down the current costs,
+    predict future costs, and plan accordingly only enhances the cost
+    optimization of your architecture in the cloud.
+* Optimize over time
+
