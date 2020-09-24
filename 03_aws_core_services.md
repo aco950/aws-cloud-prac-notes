@@ -71,10 +71,10 @@
     * Protected from failures in other AZs.
       * AWS recommends provisioning your data across multiple AZs as a
         best practice.
-    * Edge Locations
-      * Host a CDN called Amazon CloudFront.
-      * CloudFront is used to deliver content to your customers.
-      * Requests are automatically routed to the nearest edge location
-        to your customer.
-      * Typically located in higly-populated areas.
+  * Edge Locations
+    * Host a CDN called Amazon CloudFront.
+    * CloudFront is used to deliver content to your customers.
+    * Requests are automatically routed to the nearest edge location
+      to your customer.
+    * Typically located in higly-populated areas.
 
