@@ -120,3 +120,22 @@
     your architecture in the cloud.
 * Optimize over time
 
+* Cost Optimization Pillar: Design principles
+  * Adopt a consumption model
+    * Only pay for what you use.
+  * Measure overall efficiency
+    * Measure the business output of the systems, and the costs
+      associated with delivering it, then take this measurement to
+      understand how gains are made from increasing output and reducing
+      costs.
+  * Reduce spending on data center operations.
+    * Stop spending money on physical data center operations.
+    * No more powering, racking and stacking servers.
+  * Analyze and attribute expenditure
+    * Measure ROI, and adjust accordingly.
+  * Use managed services.
+    * To reduce the cost of ownership.
+      * Examples:
+        * Sending emails.
+        * Managing database servers.
+
