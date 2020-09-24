@@ -53,3 +53,28 @@
       with different tools/services.
   * Via CLI, data can be uploaded, synchronized, etc.
 
+## Amazon Global Infrastructure
+* Comprised of:
+  * Regions
+    * Geographic areas that host 2 or more AZs.
+    * The organizing level for AWS services.
+    * Pick via latency minimization, costs, and regulatory reqs.
+    * Regions are completely separate entities from one another.
+      * Not all services are available in all regions.
+  * AZs
+    * Multiple isolated locations within one geographic area.
+    * Collection of data centers in a specific region.
+    * Physically and logically isolated from one another, but connected 
+      together via a fast, low-latency network.
+    * Supplied via different (power) grids from different utilities.
+    * Serviced by multiple tier-1 network providers.
+    * Protected from failures in other AZs.
+      * AWS recommends provisioning your data across multiple AZs as a
+        best practice.
+    * Edge Locations
+      * Host a CDN called Amazon CloudFront.
+      * CloudFront is used to deliver content to your customers.
+      * Requests are automatically routed to the nearest edge location
+        to your customer.
+      * Typically located in higly-populated areas.
+
