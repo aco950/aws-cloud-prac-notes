@@ -78,3 +78,39 @@
       to your customer.
     * Typically located in higly-populated areas.
 
+## Amazon Virtual Private Cloud (VPC)
+* The AWS networking service that will meet your networking reqs.
+* Allows you to create a private network within the AWS cloud that
+    uses many of the same concepts and constructs as an on-premises
+    network.
+* Allows complete control of network configuration.
+  * Ability to isolate and expose resources in the VPC.
+* Offers several layers of security controls.
+  * Ability to allow and deny specific internet and internal traffic.
+* Other AWS services deploy into VPC.
+  * Services inherent security built into the network.
+* Integrates with numerous AWS services
+* Features:
+  * Builds on high-availabiltiy of AWS regions and AZs.
+    * VPCs live within a region ("region-based")
+    * Multiple VPCs per account
+  * Subnets
+    * Divide VPCs
+    * Allow VPCs to span multiple AZs
+    * Fewer is recommended in order to reduce complexity
+  * Route Tables
+    * Control traffic going out of the subnets
+    * By default, can communicate with one another in the same VPC
+    * Can be public or private.
+      * For a subnet to be public, we need to attach an IGW (Internet
+        Gateway) to the VPC, and update the route table to send non-
+        public traffic to the IGW. EC2 instances will also require a
+        public IP.
+      * An Internet Gateway (IGW) allows access to the Internet from
+        Amazon VPC.
+    * NAT Gateway
+      * Allows private subnet resources to access the Internet.
+    * Network Access Control Lists (NACL)
+      * Control access to subnets.
+      * Stateless.
+
