@@ -73,3 +73,19 @@
       using automation. With this, you only need to manage change in
       your automation, and not on every single resource.
 
+## Performance Efficiency Pillar
+* Select customizable solutions
+  * Go with the best solution that will optimize your architecture.
+  * Get the right tool for the right job.
+* Review to continually innovate
+  * Continually innovate your solutions and take advantage of newer
+    technologies that become available.
+* Monitor AWS services
+  * After you have implmented your architecture, it is important to
+    monitor performance to ensure that you can remediate any issues
+    before your customers become aware of them.
+* Consider the trade-offs
+  * For example, trading consistency, durability, and space versus
+    time or latency, in order to ensure that you deliver higher
+    performance.
+
