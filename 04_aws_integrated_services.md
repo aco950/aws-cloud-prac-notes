@@ -148,7 +148,7 @@
 * Allows microservices to talk to one another.
 * Allows for event notifications to be sent.
 * Steps:
-  * Create a topoc
+  * Create a topic
   * Create platform application
   * Create a subscription
   * Publish message
