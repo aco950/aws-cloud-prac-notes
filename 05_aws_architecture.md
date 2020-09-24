@@ -89,3 +89,20 @@
     time or latency, in order to ensure that you deliver higher
     performance.
 
+* Performance Efficiency Pillar: Design Principles
+  * Deocratize advanced technologies
+    * Difficult-to-implement technologies can be simpler to consume by
+      pushing that knowledge and complexity into the cloud vendor's
+      domain.
+      * Instead of having your IT team learn how to host and run a new
+        technology, they can consume it as a service.
+  * Go global in minutes
+  * Use serverless architectures
+    * Removes the operational burden, OS layer, and controls costs.
+  * Experiment more often
+    * With virtualization, you can carry out testing to enhance your
+      efficiency.
+  * Have mechanical sympathy
+    * Use the technology approach that best aligns with what you're
+      trying to achieve.
+
