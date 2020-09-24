@@ -125,3 +125,15 @@
   * API Gateway
   * Web Backends
 
+## AWS Elastic Beanstalk
+* Platform as a Service
+* Allows you to quickly get your application into the cloud.
+* Allows quick deployment of your applications
+  * You can update your application later on, just as easily as you 
+    deployed it
+* Reduces management complexity
+* Keeps control in your hands:
+  * Choose your instance type
+  * Choose your database
+  * Set and adjust Auto Scaling
+
