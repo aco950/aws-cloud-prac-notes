@@ -114,9 +114,9 @@
 * Matching supply with demand
 * Increase expenditure awareness
   * Being fully aware and cognizant of what spending and cost drivers
-    are happening with your business is critical, so having the
-    ability to see, understand, and break down the current costs,
-    predict future costs, and plan accordingly only enhances the cost
-    optimization of your architecture in the cloud.
+    are happening with your business is critical, so having the ability 
+    to see, understand, and break down the current costs, predict future 
+    costs, and plan accordingly only enhances the cost optimization of 
+    your architecture in the cloud.
 * Optimize over time
 
