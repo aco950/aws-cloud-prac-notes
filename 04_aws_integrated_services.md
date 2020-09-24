@@ -27,3 +27,42 @@
 
 * NOTE: You'll need to select 2 AZs when setting this up.
 
+## Auto Scaling
+* Helps you ensure that you have the correct number of Amazon EC2
+  instances available to handle the load for your application.
+  * This is based on conditions that you specify.
+* Removes the guesswork of figuring out how many instances you need at a 
+  point in time to meet your workload requirements.
+* When running your applications on EC2 instances, you should monitor 
+  the performance of your workload via Amazon CloudWatch.
+  * With CloudWatch, you can measure workload and see when the demand is 
+    highest/lowest.
+* Answers 2 questions:
+  * How can I ensure that my workload has enough EC2 resources to meet
+    fluctuating performance requirements? (Scalability)
+  * How can I automate EC2 resource provisioning to occur on-demand?
+    (Automation).
+    * NOTE: 2 very important AWS tenets:
+      * Make your environment scalable.
+      * Automate as much as possible.
+  * Advantages:
+    * Better cost optimization (you are not running a full fleet when
+      things are slow).
+      * Scale **out** to meet performance needs/demands.
+      * Scale **in** to save money.
+    * Avoids your application from timing out and underperforming.
+  * Process:
+    * Start with a Base Configuration.
+    * Launching instances is the process of Scaling Out.
+    * Terminating instances is the process of Scaling In.
+  * Components:
+    * Launch Configuration
+    * Auto Scaling Group
+    * Auto Scaling Policy
+  * Dynamic Auto Scaling
+    * Create CloudWatch alarms based on performance info from EC2
+      instances or a load balancer.
+    * When a performance threshold is breached, a CloudWatch alarm
+      triggers an Auto Scaling even which either scales out or scales
+      in.
+
