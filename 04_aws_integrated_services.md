@@ -7,23 +7,23 @@
 * Part of the Elastic Load Balancing Service (2nd edition)
 * Replaces Classic Load Balancer
 * Adds supported protocols, CloudWatch Metrics, Access Logs, and Health 
-  Checks.
+  Checks
 * Use cases:
   * Use containers to host microservices and route to those services 
-    from a single load balancer.
-  * Route requests based on content.
+    from a single load balancer
+  * Route requests based on content
 * Key Terms:
   * Listener 
     * A process that checks for connection requests using the protocol 
-      and port that you configure.
+      and port that you configure
   * Target 
     * Destination for traffic based on the established listener rules.
     * The Application Load Balancer registers Targets instead instances.
   * Target Group 
     * Routes requests to one or more of the registered targets using the 
-      protocol and port number specified.
+      protocol and port number specified
     * The Target Group is how the Targets are registered to the 
-      Application Load Balancer.
+      Application Load Balancer
 
 * NOTE: You'll need to select 2 AZs when setting this up.
 
@@ -67,10 +67,10 @@
       in.
 
 ## Amazon Route 53
+* A managed DNS solution, instead of deploying your own DNS server.
 * A global, highly-available DNS web service designed to provide 
   business and devs with a reliable and highly scalable way to route end 
   users to internet applications.
-* A managed DNS solution, instead of deploying your own DNS server.
 * Requires you to have a domain name purchased via a registrar.
 * You can have external or internal hosted zones.
 * Can also do domain registration (as a registrar).
@@ -178,6 +178,28 @@
     * Can also be archived.
     * Events are audited/logged (you can see who did what and when).
   * Dashboards for visualization
+
+## Amazon CloudFront
+* CDN (Content Delivery Network)
+* Allows you to leverage multiple locations around the world to
+  deliver your content, thus allowing your users to interact with your
+  application in a lower latency.
+* AWS Global Infrastructure:
+  * Edge Locations (80 locations worldwide and growing)
+  * Regional Edge Caches (10 locations worldwide)
+    * CloudFront caches content here, for reduced latency.
+    * If, for example, your web server crashes, content can still be
+      served from the cache.
+* Easy to get started
+* Deep integration with existing AWS services
+* Cost-effective
+* Use cases:
+  * Static asset caching
+  * Live and on-demand video streaming
+  * Security and DDoS protection
+  * Dynamic and customized content
+  * API acceleration
+  * Software distribution
 
 ## AWS CloudFormation
 - Simplifies the task of repeatedly and predictably creating groups of
