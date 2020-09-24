@@ -1,3 +1,4 @@
+# vim:set ft=markdown.pandoc
 # Fault Tolerance and High Availabilty
 
 ## Fault Tolerance:
