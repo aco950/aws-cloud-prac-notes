@@ -7,7 +7,7 @@
 * Cost optimization
 * Operational excellence
 
-## Security Pillar:
+## Security Pillar
 * Cloud security is composed of five areas:
   * Identity and access management (IAM)
     * Ensures that only authorized and authenticated users are able to
@@ -28,4 +28,15 @@
       mitigates any potential security incidents.
     * Ensures that your architecture is updated to accomodate a timely
       investigation and recovery.
+
+* Security Pillar: Design Principles
+  * Implement (apply) security at all layers
+  * Enable traceability
+  * Apply principle of least privilege
+  * Focus on securing your system
+  * Automate
+    * Automate security best practices.
+    * Automate patched image deployment
+    * Automate incident response for routine and anomalous security
+      events.
 
