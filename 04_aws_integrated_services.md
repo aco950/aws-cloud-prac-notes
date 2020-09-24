@@ -32,11 +32,11 @@
   instances available to handle the load for your application.
   * This is based on conditions that you specify.
 * Removes the guesswork of figuring out how many instances you need at a 
-  point in time to meet your workload requirements.
+  point in time in order to meet your workload requirements.
 * When running your applications on EC2 instances, you should monitor 
   the performance of your workload via Amazon CloudWatch.
-  * With CloudWatch, you can measure workload and see when the demand is 
-    highest/lowest.
+  * With CloudWatch, you can measure your workload and see when demand 
+    is highest/lowest.
 * Answers 2 questions:
   * How can I ensure that my workload has enough EC2 resources to meet
     fluctuating performance requirements? (Scalability)
@@ -65,4 +65,20 @@
     * When a performance threshold is breached, a CloudWatch alarm
       triggers an Auto Scaling even which either scales out or scales
       in.
+
+## Amazon Route 53
+* A global, highly-available DNS web service designed to provide 
+  business and devs with a reliable and highly scalable way to route end 
+  users to internet applications.
+* A managed DNS solution, instead of deploying your own DNS server.
+* Requires you to have a domain name purchased via a registrar.
+* You can have external or internal hosted zones.
+* Can also do domain registration (as a registrar).
+* Other DNS Resolution Strategies:
+  * Simple routing
+  * Weighted round-robin
+  * Geo-location
+  * Latency-based
+  * Failover
+  * Multi-value answer
 
