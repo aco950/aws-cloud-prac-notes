@@ -154,3 +154,28 @@
   * Publish message
   * Publish text message (SMS)
 
+## Amazon CloudWatch
+* A real-time monitoring service for your AWS resources and the 
+  applications you run on AWS.
+  * Collect and track metrics
+  * Collect and monitor log files
+  * Set alarms on any of your metrics
+    * Alarms watch a single metric.
+  * Automatically react to changes
+* Use cases:
+  * Respond to state changes in your AWS resources.
+  * Automatically invoke an AWS Lambda function to update DNS entries
+    when an event notifies that an EC2 instance enters a running
+    state.
+  * Direct specific API records from CloudTrail to a Kinesis stream
+    for detailed analysis of potential security or availability risks.
+  * Take a snapshot of an Amazon EBS volume on a schedule.
+  * Log S3 object level operations using CloudWatch events.
+  * You can publish your own metrics, for an additional fee.
+  * Detect and automatically revoke unintended IAM access with via a 
+    CloudWatch events.
+  * CloudWatch logs can be used for real-time troubleshooting.
+    * Can also be archived.
+    * Events are audited/logged (you can see who did what and when).
+  * Dashboards for visualization
+
