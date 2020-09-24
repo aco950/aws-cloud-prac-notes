@@ -173,9 +173,25 @@
   * Log S3 object level operations using CloudWatch events.
   * You can publish your own metrics, for an additional fee.
   * Detect and automatically revoke unintended IAM access with via a 
-    CloudWatch events.
+    CloudWatch event.
   * CloudWatch logs can be used for real-time troubleshooting.
     * Can also be archived.
     * Events are audited/logged (you can see who did what and when).
   * Dashboards for visualization
+
+## AWS CloudFormation
+- Simplifies the task of repeatedly and predictably creating groups of
+  related resources that power your applications.
+- All about automating resource provisioning.
+- Fully-managed service, no infrastructure to support.
+- Create, update and delete resources and sets known as 'stacks'.
+  - Stacks are also a unit of deployment.
+  - Template files become a form of self-documentation
+  - Resources can be created based on dependencies
+  - Templates become Infrastructure as Code
+- For those new to this, you can get started easily with CloudFormation 
+  Designer
+- Requirements:
+  - Templates
+  - Permissions
 
