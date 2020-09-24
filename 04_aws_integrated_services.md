@@ -103,3 +103,25 @@
   * E-commerce Apps
   * Mobile and Online Games
 
+## AWS Lambda
+* Function as a Service
+* Fully-Managed serverless compute
+  * No servers to manage
+* Event-driven execution
+* Sub-second metering
+* Multiple (programming) languages supported
+* Executes your code only when needed
+  * You only pay when your code is running, not during downtime
+* We can run code for any application or backend service
+* Use Cases:
+  * Automated backups
+  * Processing objects uploaded to S3
+  * Event-driven log analysis
+  * Event-driven transformations
+  * Internet of Things (IoT)
+  * Operating serverless websites
+  * Real-time stream processing (with Amazon Kinesis)
+  * Extract/Transform/Load pipeline
+  * API Gateway
+  * Web Backends
+
