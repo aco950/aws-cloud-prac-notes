@@ -139,3 +139,8 @@
         * Sending emails.
         * Managing database servers.
 
+## Operational Excellence Pillar
+* Manage and automate changes
+* Respond to events
+* Define the standards
+
