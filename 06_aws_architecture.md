@@ -1,4 +1,3 @@
-# vim:set ft=markdown.pandoc
 # Fault Tolerance and High Availabilty
 
 ## Fault Tolerance:
@@ -11,4 +10,14 @@
 * Downtime is minimized
 * Minimal human intervention is required
 * Minimal up-front financial investment
+
+## High Availability - On Premises vs AWS:
+* Traditional (on premises)
+  * Very expensive
+  * Only mission-critical applications
+* AWS
+  * Multiple servers
+  * Multiple Availability Zones
+  * Multiple Regions
+  * Access to fault-tolerant services to use as you please
 
