@@ -21,3 +21,33 @@
   * Multiple Regions
   * Access to fault-tolerant services to use as you please
 
+## High Availability Service Tools
+* Elastic load balancers
+  * Distributes incoming traffic (loads)
+  * Sends metrics to Amazon CloudWatch
+  * Triggers/notifies
+    * High latency
+    * Over utilization
+* Elastic IP addresses
+  * Are static IP addresses
+  * Mask failures (if they were to occur)
+  * You can continue to access applications even if an instance fails
+* Amazon Route 53
+  * Authoritative DNS service
+    * Translates domain names to IP addresses
+  * Supports:
+    * Simple routing
+    * Latency-based routing
+    * Health checks
+    * DNS failovers
+    * Geo-location routing
+* Auto Scaling
+  * Terminates and launches instances based on specified conditions
+  * Assists with adjusting or modifying capacity
+  * Creates new resources on demand
+* Amazon CloudWatch
+  * Distributed statistics gathering system
+  * Tracks your metrics of your infrastructure
+  * Create and use your own custom metrics
+  * Used with auto scaling
+
