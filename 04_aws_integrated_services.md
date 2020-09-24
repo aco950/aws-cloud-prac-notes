@@ -82,3 +82,24 @@
   * Failover
   * Multi-value answer
 
+## Amazon Relational Database Services (RDS)
+* Amazon RDS is a managed service that sets up and operates a relational 
+  database in the cloud
+* Provides cost-efficient and resizable capacity while automating the
+  following administrative tasks:
+  * Challenges of Relational Databases
+    * Server maintenance and energy footprint
+    * Software installation and patches
+    * Database backups and high availability
+      * High availabilty via Multi-AZ
+    * Scalability limits
+    * Data security
+    * OS installations and patching
+* Frees you to focus on your application.
+* You manage application optimization, while AWS manages the rest.
+* Basic building block of Amazon RDS is the database instance.
+* Use Cases:
+  * Web and Mobile Apps
+  * E-commerce Apps
+  * Mobile and Online Games
+
