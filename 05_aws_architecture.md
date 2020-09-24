@@ -40,3 +40,18 @@
     * Automate incident response for routine and anomalous security
       events.
 
+## Reliability Pillar
+* Recover from issues/failures
+* Apply best practices in:
+  * Foundations
+    * Foundational requirements that influence reliability should be
+      in place.
+  * Change management
+    * Important to fully understand and be aware of how change can
+      affect your system.
+  * Failure management
+    * Automation is key here.
+    * Systems should automatically be able to detect failures and do
+      self-healing.
+    * Antipate, respond, and prevent failures
+
