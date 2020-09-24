@@ -108,9 +108,9 @@
         public IP.
       * An Internet Gateway (IGW) allows access to the Internet from
         Amazon VPC.
-    * NAT Gateway
-      * Allows private subnet resources to access the Internet.
-    * Network Access Control Lists (NACL)
-      * Control access to subnets.
-      * Stateless.
+  * NAT Gateway
+    * Allows private subnet resources to access the Internet.
+  * Network Access Control Lists (NACL)
+    * Control access to subnets.
+    * Stateless.
 
