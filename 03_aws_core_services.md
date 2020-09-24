@@ -114,3 +114,11 @@
     * Control access to subnets.
     * Stateless.
 
+## Security Groups
+* One of the highest priorities.
+* Act as built-in firewalls
+* Control access to instances
+* Another method to filter traffic to your instances
+* For example, you can create a rule to allow the entire internet
+  0.0.0.0/0, ::/0.
+
