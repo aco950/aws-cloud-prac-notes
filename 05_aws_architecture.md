@@ -53,5 +53,23 @@
     * Automation is key here.
     * Systems should automatically be able to detect failures and do
       self-healing.
-    * Antipate, respond, and prevent failures
+    * Antipate, respond to, and prevent failures
+
+* Reliability Pillar: Design Principles
+  * Test recovery procedures
+    * Test how your systems fail.
+  * Automatically recover (from failure)
+    * In AWS, you're able to trigger automatic responses when thresholds
+      are breached.
+  * Scale horizontally
+    * Replace a large (monolithic) resource with multiple small
+      resources. This will reduce the impact of a single point of
+      failure on the overall system.
+  * Stop guessing capacity
+    * Monitor system demand/utilization, then automate the addition
+      and/or removal of resources.
+  * Manage change in automation
+    * Changes in your architecture and infrastructure should be made
+      using automation. With this, you only need to manage change in
+      your automation, and not on every single resource.
 
