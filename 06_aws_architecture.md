@@ -23,11 +23,11 @@
 
 ## High Availability Service Tools
 #### Elastic load balancers
-  * Distributes incoming traffic (loads)
-  * Sends metrics to Amazon CloudWatch
-  * Triggers/notifies
-    * High latency
-    * Over utilization
+* Distributes incoming traffic (loads)
+* Sends metrics to Amazon CloudWatch
+* Triggers/notifies
+  * High latency
+  * Over utilization
 * Elastic IP addresses
   * Are static IP addresses
   * Mask failures (if they were to occur)
