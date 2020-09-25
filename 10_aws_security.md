@@ -33,7 +33,8 @@ Management)
 * An operator wants to put an object into an S3 bucket (this is an API 
   call)
 * API is executed, which includes the object name, bucket name, 
-  present a set of credentials, etc. All of this is called the API
+  present a set of credentials, etc. 
+    * All of this is called the API
   execution statement.
 * The API execution statement gets presented to the AWS API engine.
 * The AWS API (IAM) engine validates the credentials presented against 
