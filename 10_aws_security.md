@@ -49,6 +49,6 @@ Management)
   security manager - who may not know which account got compromised -
   can execute a single API statement that removes every single policy
   document from all the users, groups and roles.
-* After the revocation of the policy documents, attempts to do further
-  compromise will be logged in CloudTrail.
+  * After the revocation of the policy documents, attempts to do 
+    further compromise will be logged in CloudTrail.
 
