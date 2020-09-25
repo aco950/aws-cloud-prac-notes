@@ -5,8 +5,9 @@
   * Social media apps
   * (Internal) SharePoint site
 
-* Usage peaks can be handled efficiently
-* Testing fleets can be provisioned only when needed
-* Cost effective
-* Scalable
+* Advantages:
+  * Usage peaks can be handled efficiently
+  * Testing fleets can be provisioned only when needed
+  * Cost effective
+  * Scalable
 
