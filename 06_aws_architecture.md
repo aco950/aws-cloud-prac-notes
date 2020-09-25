@@ -22,7 +22,7 @@
   * Access to fault-tolerant services to use as you please
 
 ## High Availability Service Tools
-* Elastic load balancers
+#### Elastic load balancers
   * Distributes incoming traffic (loads)
   * Sends metrics to Amazon CloudWatch
   * Triggers/notifies
@@ -52,7 +52,7 @@
   * Used with auto scaling
 
 ## Fault Tolerant Tools
-#### Amazon Simple Queue Service (SQS)
+* Amazon Simple Queue Service (SQS)
 * Amazon Simple Storage Service (S3)
 * Amazon Relational Database Service (RDS)
 
