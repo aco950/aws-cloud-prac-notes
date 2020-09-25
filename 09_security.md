@@ -4,6 +4,7 @@
 * Some parts, you are responsible for, while other parts, AWS is 100%
   responsible for. Understanding where that division is, is part of
   the interaction between you and AWS. 
+  * EC2 
   * User Data (YOU - AWS cannot see the user data)
   * Application (YOU - AWS cannot see what apps you're running)
   * Guest OS (YOU - AWS cannot see what guest OS you're running)
