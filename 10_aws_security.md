@@ -29,20 +29,20 @@ Management)
     whitelisting, or allowing against a set of resources, conditions,
     etc.
 
-* Process:
-  * An operator wants to put an object into an S3 bucket (this is an API 
-    call)
-  * API is executed, which includes the object name, bucket name, 
-    present a set of credentials, etc. All of this is called the API
-    execution statement.
-  * The API execution statement gets presented to the AWS API engine.
-  * The AWS API (IAM) engine validates the credentials presented against 
-    any one of the policy documents.
-  * All actions are by default, implicitly denied, unless that action
-    has an 'allow' policy.
-  * An explicit deny overrides any allow statement.
-    * You can use this where you want to permanently prevent certain
-      actions from happening. 
+## Process:
+* An operator wants to put an object into an S3 bucket (this is an API 
+  call)
+* API is executed, which includes the object name, bucket name, 
+  present a set of credentials, etc. All of this is called the API
+  execution statement.
+* The API execution statement gets presented to the AWS API engine.
+* The AWS API (IAM) engine validates the credentials presented against 
+  any one of the policy documents.
+* All actions are by default, implicitly denied, unless that action
+  has an 'allow' policy.
+* An explicit deny overrides any allow statement.
+  * You can use this where you want to permanently prevent certain
+    actions from happening. 
 
 * In the event that there's a compromise of security credentials, the
   security manager - who may not know which account got compromised -
