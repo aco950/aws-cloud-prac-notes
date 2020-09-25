@@ -8,11 +8,11 @@
   * Application (YOU - AWS cannot see what apps you're running)
   * Guest OS (YOU - AWS cannot see what guest OS you're running)
 
-##(above this line, YOU are 100% responsible)
+## (above this line, YOU are 100% responsible)
 
 -------------------------------- EC2 instance --------------------------
 
-##(below this line, AWS is 100% responsible)
+## (below this line, AWS is 100% responsible)
 
   * Hypervisor
     * Was run on Xen (not sure if this is still current).
