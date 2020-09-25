@@ -52,7 +52,7 @@
   * Used with auto scaling
 
 ## Fault Tolerant Tools
-### Amazon Simple Queue Service (SQS)
+#### Amazon Simple Queue Service (SQS)
 * Amazon Simple Storage Service (S3)
 * Amazon Relational Database Service (RDS)
 
