@@ -40,26 +40,18 @@
   security issues.
 * Gain a deeper understanding of your AWS resources.
 
-  - Accessing Amazon Inspector:
-    - Amazon Inspector Console
-    - AWS software development kits (SDKs)
-    - Amazon Inspector HTTPS API
-    - AWS command line tools
-    - Built-in rules
-      - To help you get started quickly, included, is a knowledge base
-        with hundreds of rules that are mapped to:
-        - Common security compliance standards
-        - Vulnerability definitions
-          - Examples:  
-            - Checking for remote root login being enabled
-            - Checking for vulnerable software versions being installed
-      - Rules are regurlary updated by AWS security researchers
-
-
-
-
-
-
-
-
+## Accessing Amazon Inspector:
+* Amazon Inspector Console
+* AWS software development kits (SDKs)
+* Amazon Inspector HTTPS API
+* AWS command line tools
+* Built-in rules
+  * To help you get started quickly, included, is a knowledge base with 
+    hundreds of rules that are mapped to:
+    * Common security compliance standards
+    * Vulnerability definitions
+      * Examples:  
+        * Checking for remote root login being enabled
+        * Checking for vulnerable software versions being installed
+    * Rules are regurlary updated by AWS security researchers
 
