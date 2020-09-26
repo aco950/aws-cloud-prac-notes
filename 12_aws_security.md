@@ -68,7 +68,7 @@
   * AWS Shield Standard - Hosted zones.
   * AWS Shield Advanced - Attack visibility, DRT support.
 
-## Proecting web applications and APIs
+## Protecting web applications and APIs
 * Using Amazon CloudFront or Application Load Balancer
   * AWS Shield Standard - Always on, scrubs bad traffic.
   * AWS Shield Advanced - DRT support, traffic engineering, application 
