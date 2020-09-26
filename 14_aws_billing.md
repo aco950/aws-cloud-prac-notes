@@ -152,17 +152,17 @@
       * Tiered charges for outbound data transfer
 
 ### Amazon CloudFront
-      - What is Amazon CloudFront?
-        - Web service for content delivery
-        - Integration with other AWS services
-          - Low latency
-          - High data transfer speeds
-          - No minimum commitments
-      - Cost factors
-        - Pricing varies across geographic regions
-        - Based on:
-          - Requests
-          - Data transfer out
+* What is Amazon CloudFront?
+  * Web service for content delivery
+  * Integration with other AWS services
+    * Low latency
+    * High data transfer speeds
+    * No minimum commitments
+  * Cost factors
+    * Pricing varies across geographic regions
+    * Based on:
+      * Requests
+      * Data transfer out
 
 - AWS Trusted Advisor
   - Provides best practices (or checks) in four categories:
