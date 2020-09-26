@@ -1,7 +1,8 @@
 # Amazon Inspector
 
-## Amazon Inspector is an automated security assessment service
-* Agent-based, API-driven, and delivered as a service.
+## What is Amazon Inspector? 
+* An automated security assessment service
+* Agent-based, API-driven, and delivered as a service
 * Assesses applications for:
   * Vulnerabilities
   * Deviations from best practices
