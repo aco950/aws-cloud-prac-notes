@@ -1,24 +1,26 @@
-Pricing and Support
-- Examine fundamental characteristics of product
-- Estimate usage
-- Map usage to prices
+# Pricing and Support
 
-- Fundamentals of Pricing
-  - You pay only for what you need/consume
-    - Less dependency on forecasting
-  - No contracts/termination fees
-  - Pay less per unit as you grow
-  - Reserved instances (EC2 and RDS):
-    - AURI (all upfront)
-    - PURI (partial upfront)
-    - NURI (no upfront)
-  - Storage
-    - The more you use, the less you pay.
-    - Data transfer in is always free.
-  - Consolidated Billing 
-    - If you have multiple AWS accounts, you can consolidate your AWS
-      usage using Consolidated Billing and get tiering benefits based on
-      the total usage across your accounts.
+## Steps for Evaluating Your Pricing Needs:
+* Examine fundamental characteristics of product
+* Estimate usage
+* Map usage to prices
+
+## Fundamentals of Pricing
+* You pay only for what you need/consume
+  * Less dependency on forecasting
+* No contracts/termination fees
+* Pay less per unit as you grow
+* Reserved instances (EC2 and RDS):
+  * AURI (all upfront)
+  * PURI (partial upfront)
+  * NURI (no upfront)
+* Storage
+  * The more you use, the less you pay.
+  * Data transfer in is always free.
+* Consolidated Billing 
+  * If you have multiple AWS accounts, you can consolidate your AWS
+    usage using Consolidated Billing and get tiering benefits based on
+    the total usage across your accounts.
 
 - Pricing Details
   - Pay for:
