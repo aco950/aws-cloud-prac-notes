@@ -74,12 +74,12 @@
   * AWS Shield Advanced - DRT support, traffic engineering, application 
     layer protection.
   
-  - For other custom applications not based on TCP (e.g., UDP, SIP):
-    - You cannot use services like Amazon CloudFront or Elastic Load
-      Balancing. In these cases, you often need to run your applications
-      directly on internet-facing Amazon EC2 instances.
-      - Using Elastic IP address:
-        - AWS Shield Standard - Built-in techniques.
-        - AWS Shield Advanced - Custom mitigation profiles, additional 
-                              bandwidth
+## For other custom applications not based on TCP (e.g., UDP, SIP):
+* You cannot use services like Amazon CloudFront or Elastic Load
+  Balancing. In these cases, you often need to run your applications
+  directly on internet-facing Amazon EC2 instances.
+  * Using Elastic IP address:
+    * AWS Shield Standard - Built-in techniques.
+    * AWS Shield Advanced - Custom mitigation profiles, additional 
+      bandwidth
 
