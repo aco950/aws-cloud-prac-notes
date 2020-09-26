@@ -171,22 +171,21 @@
   * Security
   * Fault tolerance 
 
-- AWS Support Plans
-  - Support is provided for:
-    - Experimenting with AWS
-    - Production use of AWS
-    - Business critical use of AWS
-    - Proactive guidance
-      - Technical Account Manager (TAM)
-    - Best practices
-      - Trusted Advisor
-    - Account assistance
-      - AWS Support Concierge
-  - Support Plans
-    - AWS Support offers 4 support plans
-      - Basic Support
-      - Developer Support
-      - Business Support
-      - Enterprise Support
+### AWS Support Plans
+* Support is provided for:
+  * Experimenting with AWS
+  * Production use of AWS
+  * Business critical use of AWS
+  * Proactive guidance
+    * Technical Account Manager (TAM)
+  * Best practices
+    * Trusted Advisor
+  * Account assistance
+    * AWS Support Concierge
+* Support Plans
+  * AWS Support offers 4 support plans
+    * Basic Support
+    * Developer Support
+    * Business Support
+    * Enterprise Support
  
-
