@@ -6,17 +6,17 @@
   engage AWS support for DDoS protection.
 
 ## 2 Levels:
-  * AWS Shield Standard
-    * Automatic protection, for all AWS customers, at no additional
-      charge
-      * Any AWS resource, region, etc.
-      * Quick detection - always on
-      * Inline attack mitigation
-        * Built-in automated mitigation techniques
-        * Avoids latency impact
-      * Self-service
-        * No need to engage AWS support
-  * AWS Shield Advanced 
+### AWS Shield Standard
+* Automatic protection, for all AWS customers, at no additional
+  charge
+  * Any AWS resource, region, etc.
+  * Quick detection - always on
+  * Inline attack mitigation
+    * Built-in automated mitigation techniques
+    * Avoids latency impact
+  * Self-service
+    * No need to engage AWS support
+  ### AWS Shield Advanced 
     * Paid service for higher levels of protection, features and 
       benefits.
       * Specialized support
