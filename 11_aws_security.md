@@ -1,5 +1,18 @@
 # Amazon Inspector
-An automated security assessment service.
+
+## Amazon Inspector is an automated security assessment service
+* Agent-based, API-driven, and delivered as a service.
+* Assesses applications for:
+  * Vulnerabilities
+  * Deviations from best practices
+    * Both before they are deployed and when they are running in a 
+      production environment.
+  * Produces a detailed report with:
+    * Security findings
+    * Prioritized steps for remediation
+      * AWS does not guarantee that following the provided 
+        recommendations will resolve every potential security issue 
+        (see the AWS Shared Responsibility Model).
 
 ## Amazon Inspector helps address the following issues:
 * IT security challenges
@@ -14,19 +27,6 @@ An automated security assessment service.
         assessments - and run the risk of missing security 
         vulnerabilities.
 
-  - Amazon Inspector is an automated security assessment service
-    - Agent-based, API-driven, and delivered as a service.
-    - Assesses applications for:
-      - Vulnerabilities
-      - Deviations from best practices
-      - Both before they are deployed and when they are running in a 
-        production environment.
-    - Produces a detailed report with:
-      - Security findings
-      - Prioritized steps for remediation
-        - AWS does not guarantee that following the provided 
-          recommendations will resolve every potential security issue 
-          (see the AWS Shared Responsibility Model).
 
   - Benefits:
     - Identify application security issues.
