@@ -100,28 +100,28 @@
         * Data transfer
           * Amount of data transferred out of the Amazon S3 region
 
-###    - Amazon EBS
-      - Provides block-level storage for your EC2 instances
-      - Volumes persist independently from the instance
-      - Analogous to virtual disks in the cloud
-      - 3 volume types:
-        - General Purpose (SSD)
-        - Provisioned IOPS (SSD)
-        - Magnetic (spinning platters)
-      - Provides block-level storage for your EC2 instances
-      - Cost factors:
-        - Volumes - all types charged by the amount provisioned per 
-                    month
-        - IOPS:
-          - General Purpose (SSD): Included in price.
-          - Magnetic: Charged by the number of requests.
-          - Provisioned IOPS (SSD): Charged by the amount you provision
-                                    in IOPS
-        - Snapshots (allow data backups for durable recovery) 
-          - Added cost per GB/per month of data stored
-        - Data transfer
-          - Inbound data transfer has no charge
-          - Outbound data transfer charges are tiered
+### Amazon EBS
+* Provides block-level storage for your EC2 instances
+* Volumes persist independently from the instance
+* Analogous to virtual disks in the cloud
+* 3 volume types:
+  * General Purpose (SSD)
+  * Provisioned IOPS (SSD)
+  * Magnetic (spinning platters)
+* Provides block-level storage for your EC2 instances
+* Cost factors:
+  * Volumes - all types charged by the amount provisioned per month
+  * IOPS:
+    * General Purpose (SSD): Included in price.
+    * Magnetic: Charged by the number of requests.
+    * Provisioned IOPS (SSD): Charged by the amount you provision in 
+      IOPS
+  * Snapshots (allow data backups for durable recovery) 
+    * Added cost per GB/per month of data stored
+  * Data transfer
+    * Inbound data transfer has no charge
+    * Outbound data transfer charges are tiered
+
     - Amazon RDS
       - What is Amazon RDS?
         - Relational database in the cloud
