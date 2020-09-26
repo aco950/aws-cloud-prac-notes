@@ -72,35 +72,35 @@
         programs
 
 ### Amazon S3
-      - What is Amazon S3?
-        - Object storage built to store and retrieve any amount of data
-          from anywhere.
-        - Provides:
-          - Durability, availability, and scalability
-          - Comprehensive security and compliance capabilities
-          - Query in place
-          - Flexible management and data transfer
-          - Compatability - supported by partners, vendors, and AWS
-            services
-      - Things to consider when estimating the cost of Amazon S3:
-        - Storage classes
-          - Standard Storage
-            - 99.999999999% durability
-            - 99.99% availability
-          - Standard Infrequent Access (S-IA)
-            - 99.999999999% durability
-            - 99.9% availability
-          - Storage cost:
-            - Number and size of objects
-            - Type of storage
-        - Cost factors
-          - Pricing based on:
-            - Requests
-              - Number of requests
-              - Type of requests - different rates for GET requests
-            - Data transfer
-              - Amount of data transferred out of the Amazon S3 region
-    - Amazon EBS
+* What is Amazon S3?
+  * Object storage built to store and retrieve any amount of data from 
+    anywhere.
+  * Provides:
+    * Durability, availability, and scalability
+    * Comprehensive security and compliance capabilities
+    * Query in place
+    * Flexible management and data transfer
+    * Compatability - supported by partners, vendors, and AWS services
+* Things to consider when estimating the cost of Amazon S3:
+  * Storage classes
+    * Standard Storage
+      * 99.999999999% durability
+      * 99.99% availability
+    * Standard Infrequent Access (S-IA)
+      * 99.999999999% durability
+      * 99.9% availability
+    * Storage cost:
+      * Number and size of objects
+      * Type of storage
+    * Cost factors
+      * Pricing based on:
+        * Requests
+          * Number of requests
+          * Type of requests - different rates for GET requests
+        * Data transfer
+          * Amount of data transferred out of the Amazon S3 region
+
+###    - Amazon EBS
       - Provides block-level storage for your EC2 instances
       - Volumes persist independently from the instance
       - Analogous to virtual disks in the cloud
