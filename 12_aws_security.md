@@ -31,21 +31,20 @@
           AWS will provide service credits for charges due to usage 
           spikes.
 
-  - DDoS attack vs DoS attack:
-    - A DoS attack is a deliberate attempt to make your website or app
-      unavailable to users by flooding it with network traffic.
-      - A variety of techniques that consume large amounts of network 
-        bandwidth, or tie up other system resources are employed, thus
-        disrupting access for legitimate users.
-      - A lone attacker is doing so via a single source.
-    - In a DDoS attack, the attacker is using multiple sources to
-      orchestrate an attack against a target. Sources include, but are
-      not limited to:
-      - Malware-infected computers, routers, IoT devices, and other 
-        endpoints.
-      - Typically launched from a botnet of compromised computers.
+* DDoS attack vs DoS attack:
+  * A DoS attack is a deliberate attempt to make your website or app
+    unavailable to users by flooding it with network traffic.
+    * A variety of techniques that consume large amounts of network 
+      bandwidth, or tie up other system resources are employed, thus
+      disrupting access for legitimate users.
+    * A lone attacker is doing so via a single source.
+  * In a DDoS attack, the attacker is using multiple sources to
+    orchestrate an attack against a target. Sources include, but are
+    not limited to:
+    * Malware-infected computers, routers, IoT devices, and other 
+      endpoints.
+    * Typically launched from a botnet of compromised computers.
 
- 
   - Example attack:
     - Using a highly-targeted application layer attack, an attacker may
       go after a web page with less than 100 requests per second.
