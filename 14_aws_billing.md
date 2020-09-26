@@ -44,34 +44,34 @@
       * Instance type
       * Instance size
 
-      - Purchase types
-        - On-demand instances
-          - Compute capacity by the hour and second
-          - Minimum of 60 seconds
-        - Reserved instances
-          - Low or no upfront payment instances
-          - Discount on hourly charge for that instance
-        - Spot instances
-          - Bid for unused Amazon EC2 capacity
-        - Product options
-          - Monitoring
-            - Use Amazon CloudWatch to monitor instances
-            - Basic monitoring (default)
-            - Detailed monitoring (fixed reate, prorated partial months)
-          - Auto Scaling
-            - Automatically adjusts number of instances
-            - No additional charge
-          - Elastic IP addresses
-            - No charge when associated with a running instance
-        - OS and software
-          - OS prices included in instance prices
-          - Sofware:
-            - Partnership with other vendors
-            - Vendor licenses required
-            - Existing licenses accepted through specific vendor 
-              programs
+* Purchase types
+  * On-demand instances
+    * Compute capacity by the hour and second
+    * Minimum of 60 seconds
+  * Reserved instances
+    * Low or no upfront payment instances
+    * Discount on hourly charge for that instance
+  * Spot instances
+    * Bid for unused Amazon EC2 capacity
+  * Product options
+    * Monitoring
+      * Use Amazon CloudWatch to monitor instances
+      * Basic monitoring (default)
+      * Detailed monitoring (fixed reate, prorated partial months)
+    * Auto Scaling
+      * Automatically adjusts number of instances
+      * No additional charge
+    * Elastic IP addresses
+      * No charge when associated with a running instance
+  * OS and software
+    * OS prices included in instance prices
+    * Sofware:
+      * Partnership with other vendors
+      * Vendor licenses required
+      * Existing licenses accepted through specific vendor 
+        programs
 
-    - Amazon S3
+### Amazon S3
       - What is Amazon S3?
         - Object storage built to store and retrieve any amount of data
           from anywhere.
