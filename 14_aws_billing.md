@@ -122,36 +122,36 @@
     * Inbound data transfer has no charge
     * Outbound data transfer charges are tiered
 
-    - Amazon RDS
-      - What is Amazon RDS?
-        - Relational database in the cloud
-        - Cost-efficient and resizable capacity
-        - Management of time-consuming and administrative tasks
-      - Cost Factors
-        - Clock-hour billing: Resources incur charges when running.
-        - Database characteristics: Engine, size and memory class 
-          impacts cost
-        - DB purchase type:
-          - On-demand database instances are charged by the hour
-          - Reserved database instances require upfront payment for
-            database instances reserved
-          - Provision multiple DB instances to handle peak loads
-        - Provisioned storage
-          - No charge for backup storage of up to 100% of database 
-            storage
-          - Backup storage for terminated DB instances billed at per GB/
-            per month
-        - Additional storage
-          - Backup storage in addition to provisioned storage billed at
-            per GB/per month
-        - Deployment type
-          - Storage and I/O charges variable
-          - Single Availability Zones
-          - Multiple Availability Zones
-        - Data transfer
-          - No charge for inbound data transfer
-          - Tiered charges for outbound data transfer
-    - Amazon CloudFront
+### Amazon RDS
+* What is Amazon RDS?
+  * Relational database in the cloud
+  * Cost-efficient and resizable capacity
+  * Management of time-consuming and administrative tasks
+* Cost Factors
+  * Clock-hour billing: Resources incur charges when running.
+  * Database characteristics: Engine, size and memory class impacts 
+    cost
+  * DB purchase type:
+    * On-demand database instances are charged by the hour
+    * Reserved database instances require upfront payment for database 
+      instances reserved
+    * Provision multiple DB instances to handle peak loads
+  * Provisioned storage
+    * No charge for backup storage of up to 100% of database storage
+    * Backup storage for terminated DB instances billed at per GB/
+      per month
+    * Additional storage
+      * Backup storage in addition to provisioned storage billed at per 
+        GB/per month
+    * Deployment type
+      * Storage and I/O charges variable
+      * Single Availability Zones
+      * Multiple Availability Zones
+    * Data transfer
+      * No charge for inbound data transfer
+      * Tiered charges for outbound data transfer
+
+### Amazon CloudFront
       - What is Amazon CloudFront?
         - Web service for content delivery
         - Integration with other AWS services
