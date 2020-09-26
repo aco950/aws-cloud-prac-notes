@@ -28,18 +28,17 @@
         assessments - and run the risk of missing security 
         vulnerabilities.
 
-
-  - Benefits:
-    - Identify application security issues.
-    - Integrate security into DevOps
-    - Increase development agility
-    - Leverage AWS security expertise
-    - Streamline validation and security compliance
-    - Simplify enforcement of security standards
-    - Quickly and easily assess your AWS resources
-    - Offload security assessments so you can focus on more complex
-      security issues.
-    - Gain a deeper understanding of your AWS resources.
+## Benefits:
+* Identify application security issues.
+* Integrate security into DevOps
+* Increase development agility
+* Leverage AWS security expertise
+* Streamline validation and security compliance
+* Simplify enforcement of security standards
+* Quickly and easily assess your AWS resources
+* Offload security assessments so you can focus on more complex 
+  security issues.
+* Gain a deeper understanding of your AWS resources.
 
   - Accessing Amazon Inspector:
     - Amazon Inspector Console
