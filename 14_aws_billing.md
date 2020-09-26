@@ -22,26 +22,28 @@
     usage using Consolidated Billing and get tiering benefits based on
     the total usage across your accounts.
 
-- Pricing Details
-  - Pay for:
-    - Compute capacity
-  	- Storage
-    - Outbound data transfer (aggregated)
-  - No charge for:
-    - Inbound data transfer
-  - Service pricing for AWS offerings
-    - Amazon EC2
-      - Charges only for capacity used
-      - Cost factors
-        - Clock-second/hourly billing
-          - Resources incur charges only when running
-        - Instance configuration
-          - Physical capacity of the instance
-          - Pricing varies with:
-            - AWS region
-            - OS
-            - Instance type
-            - Instance size
+## Pricing Details
+* Pay for:
+  * Compute capacity
+  * Storage
+  * Outbound data transfer (aggregated)
+* No charge for:
+  * Inbound data transfer
+
+## Service pricing for AWS offerings
+### Amazon EC2
+* Charges only for capacity used
+* Cost factors
+  * Clock-second/hourly billing
+    * Resources incur charges only when running
+  * Instance configuration
+    * Physical capacity of the instance
+    * Pricing varies with:
+      * AWS region
+      * OS
+      * Instance type
+      * Instance size
+
       - Purchase types
         - On-demand instances
           - Compute capacity by the hour and second
@@ -68,6 +70,7 @@
             - Vendor licenses required
             - Existing licenses accepted through specific vendor 
               programs
+
     - Amazon S3
       - What is Amazon S3?
         - Object storage built to store and retrieve any amount of data
