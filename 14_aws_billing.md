@@ -164,12 +164,12 @@
       * Requests
       * Data transfer out
 
-- AWS Trusted Advisor
-  - Provides best practices (or checks) in four categories:
-    - Cost optimization
-    - Performance
-    - Security
-    - Fault tolerance 
+### AWS Trusted Advisor
+* Provides best practices (or checks) in four categories:
+  * Cost optimization
+  * Performance
+  * Security
+  * Fault tolerance 
 
 - AWS Support Plans
   - Support is provided for:
