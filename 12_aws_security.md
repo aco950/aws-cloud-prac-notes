@@ -45,20 +45,20 @@
       endpoints.
     * Typically launched from a botnet of compromised computers.
 
-  - Example attack:
-    - Using a highly-targeted application layer attack, an attacker may
+  * Example attack:
+    * Using a highly-targeted application layer attack, an attacker may
       go after a web page with less than 100 requests per second.
-      - Customers use WAFs (Web Application Firewalls) to block these
+      * Customers use WAFs (Web Application Firewalls) to block these
         requests before they reach the web server infrastructure.
 
-  - DDoS mitigation challenges
-    - Mitigating DDoS attacks is challenging:
-      - Complex setup and implementation
-      - Bandwidth limitations
-      - Manual intervention
-      - Time consuming
-      - Degraded performance
-      - Expensive
+* DDoS mitigation challenges
+  * Mitigating DDoS attacks is challenging:
+    * Complex setup and implementation
+    * Bandwidth limitations
+    * Manual intervention
+    * Time consuming
+    * Degraded performance
+    * Expensive
 
   - Benefits:
     - Cost efficient
