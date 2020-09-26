@@ -4,7 +4,8 @@
 * Provides always-on detection and automatic inline mitigations that
   minimize application downtime and latency, so there's no need to 
   engage AWS support for DDoS protection.
-* 2 Levels:
+
+## 2 Levels:
   * AWS Shield Standard
     * Automatic protection, for all AWS customers, at no additional
       charge
@@ -31,7 +32,7 @@
           AWS will provide service credits for charges due to usage 
           spikes.
 
-* DDoS attack vs DoS attack:
+## DDoS attack vs DoS attack:
   * A DoS attack is a deliberate attempt to make your website or app
     unavailable to users by flooding it with network traffic.
     * A variety of techniques that consume large amounts of network 
@@ -60,10 +61,10 @@
     * Degraded performance
     * Expensive
 
-  - Benefits:
-    - Cost efficient
-    - Seamless integration and deployment
-    - Customizable protection
+* Benefits:
+  * Cost efficient
+  * Seamless integration and deployment
+  * Customizable protection
 
   - Protecting your DNS
     - Using Amazon Route 53:
