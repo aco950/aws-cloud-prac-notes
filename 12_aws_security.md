@@ -49,24 +49,24 @@
 * Customers use WAFs (Web Application Firewalls) to block these
   requests before they reach the web server infrastructure.
 
-* DDoS mitigation challenges
-  * Mitigating DDoS attacks is challenging:
-    * Complex setup and implementation
-    * Bandwidth limitations
-    * Manual intervention
-    * Time consuming
-    * Degraded performance
-    * Expensive
+## DDoS mitigation challenges
+* Mitigating DDoS attacks is challenging:
+  * Complex setup and implementation
+  * Bandwidth limitations
+  * Manual intervention
+  * Time consuming
+  * Degraded performance
+  * Expensive
 
-* Benefits:
-  * Cost efficient
-  * Seamless integration and deployment
-  * Customizable protection
+## Benefits:
+* Cost efficient
+* Seamless integration and deployment
+* Customizable protection
 
-  - Protecting your DNS
-    - Using Amazon Route 53:
-      - AWS Shield Standard - Hosted zones.
-      - AWS Shield Advanced - Attack visibility, DRT support.
+## Protecting your DNS
+* Using Amazon Route 53:
+  * AWS Shield Standard - Hosted zones.
+  * AWS Shield Advanced - Attack visibility, DRT support.
 
   - Proecting web applications and APIs
     - Using Amazon CloudFront or Application Load Balancer
