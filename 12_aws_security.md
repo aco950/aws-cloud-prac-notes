@@ -7,8 +7,7 @@
 
 ## 2 Levels:
 ### AWS Shield Standard
-* Automatic protection, for all AWS customers, at no additional
-  charge
+* Automatic protection, for all AWS customers, at no additional charge
   * Any AWS resource, region, etc.
   * Quick detection - always on
   * Inline attack mitigation
@@ -16,21 +15,19 @@
     * Avoids latency impact
   * Self-service
     * No need to engage AWS support
-  ### AWS Shield Advanced 
-    * Paid service for higher levels of protection, features and 
-      benefits.
-      * Specialized support
-        * 24x7 access to the AWS DRT (DDoS Response Team).
-      * Advanced attack mitigation
-        * AWS WAF
-      * Visibility and attack notification
-        * e.g. - HTTP floods, DNS query floods, etc.
-      * Always-on monitoring
-      * Enhanced detection
-      * DDoS cost protection
-        * If any of your services have to scale up due to an attack,
-          AWS will provide service credits for charges due to usage 
-          spikes.
+### AWS Shield Advanced 
+* Paid service for higher levels of protection, features and benefits.
+  * Specialized support
+    * 24x7 access to the AWS DRT (DDoS Response Team).
+  * Advanced attack mitigation
+    * AWS WAF
+  * Visibility and attack notification
+    * e.g. - HTTP floods, DNS query floods, etc.
+  * Always-on monitoring
+  * Enhanced detection
+  * DDoS cost protection
+    * If any of your services have to scale up due to an attack, AWS 
+      will provide service credits for charges due to usage spikes.
 
 ## DDoS attack vs DoS attack:
   * A DoS attack is a deliberate attempt to make your website or app
