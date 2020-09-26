@@ -7,22 +7,22 @@
   * Customer responsibility
     * Configure IT
 
-  ## AWS Security Information
-    - AWS shares security information by:
-      - Obtaining industry certifications
-      - Publishing security and control practices
-      - Compliance reports
+## AWS Security Information
+* AWS shares security information by:
+  * Obtaining industry certifications
+  * Publishing security and control practices
+  * Compliance reports
 
-  ## Assurance programs
-    - AWS provides compliance information and resources:
-      - Certifications/attestations
-      - Legal/regulatory support
-      - Alignments/frameworks
+## Assurance programs
+* AWS provides compliance information and resources:
+  * Certifications/attestations
+  * Legal/regulatory support
+  * Alignments/frameworks
 
-  ## Components of AWS compliance
-    - Risk management
-    - Control environment
-    - Information security
+## Components of AWS compliance
+* Risk management
+* Control environment
+* Information security
 
   ## Risk Management Foundation
     - AWS management established
