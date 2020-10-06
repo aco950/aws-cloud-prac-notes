@@ -14,6 +14,6 @@
   * Allow you to use AWS in your existing applications.
   * Infrastructure as code.
 
-* All of the above are built on top of a common API.
-* All of the above can be used interchangeably.
+#### All of the above are built on top of a common API.
+#### All of the above can be used interchangeably.
 
