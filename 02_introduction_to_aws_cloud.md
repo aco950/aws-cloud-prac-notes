@@ -1,8 +1,8 @@
 # Introduction to the AWS Cloud
 
-## AWS (Management) Interfaces
+## AWS Management Interfaces
 
-### Three ways to create and mange AWS resources:
+### 3 ways to create and mange AWS resources:
 * AWS Management Console
   * Web-based GUI and mobile app.
   * Build wizards.
