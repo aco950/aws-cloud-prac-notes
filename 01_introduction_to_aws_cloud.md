@@ -16,23 +16,21 @@
   * You can place servers across the globe, in multiple datacenters.
     * Global reach in just moments.
     * Decrease latency.
-
-## Agility
-* Increasing speed.
-* Ease of experimentation.
-* Cultivating a culture of innovation.
-
-## Elasticity
-* The power to scale up as the workload grows and shut down resources
-  that are no longer needed.
-* The ability to quickly deploy new applications..
-
-## Reliability
-* The ability of a system to recover from infrastructure or service
-  failures.
-* The ability to acquire computing resources to meet demand and mitigate   disruptions.
-* To achieve reliability, your system must be able to handle changes
-  in demand, detect failures and do self-healing.
+* Agility advantages:
+  * Increasing speed.
+  * Ease of experimentation.
+  * Cultivating a culture of innovation.
+* Elasticity advantages:
+  * The power to scale up as the workload grows and shut down resources
+    that are no longer needed.
+  * The ability to quickly deploy new applications..
+* Reliability advantages
+  * The ability of a system to recover from infrastructure or service
+    failures.
+  * The ability to acquire computing resources to meet demand and 
+    mitigate disruptions.
+  * To achieve reliability, your system must be able to handle changes
+    in demand, detect failures and do self-healing.
 
 ## Regions
 * A separate geographic area that has multiple, isolated locations.
