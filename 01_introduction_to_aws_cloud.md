@@ -32,24 +32,25 @@
   * To achieve reliability, your system must be able to handle changes
     in demand, detect failures and do self-healing.
 
-## Regions
+### Concepts:
+#### Regions
 * A separate geographic area that has multiple, isolated locations.
 
-## Availability Zones
+#### Availability Zones
 * The multiple, isolated locations within AWS regions.
 * Allows for resiliency in the face of most failures, natural disasters,
   and system failure.
 
-## Fault Tolerance
+#### Fault Tolerance
 * A system's ability to remain operational, even if some of that
   system's components fail.
 
-## High Availability
+#### High Availability
 * Ensures that your systems are always functioning and accessible, and
   that downtime is minimized as much as possible, without the need for
   human intervention.
 
-## Security
+#### Security
 * AWS customers retain complete control over their data.
 * This facilitates meeting regional compliance and data-residency
   requirements.
