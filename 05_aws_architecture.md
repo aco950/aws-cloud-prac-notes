@@ -90,7 +90,7 @@
     performance.
 
 * Performance Efficiency Pillar: Design Principles
-  * Deocratize advanced technologies
+  * Democratize advanced technologies
     * Difficult-to-implement technologies can be simpler to consume by
       pushing that knowledge and complexity into the cloud vendor's
       domain.
