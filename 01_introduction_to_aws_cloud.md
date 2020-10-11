@@ -11,8 +11,8 @@
 * Change management and capacity planning is more agile and efficient, 
   which reduces risk.
 * Security advantages:
-  * Can test often, patch quickly, and react to incidents quickly.
-  * Can sacle up/down to meet seasonal requirements.
+  * We can test often, patch quickly, and react to incidents quickly.
+  * We can scale up/down to meet seasonal requirements.
   * You can place servers across the globe, in multiple datacenters.
     * Global reach in just moments.
     * Decrease latency.
