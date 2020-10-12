@@ -213,12 +213,6 @@
        them throughout their lifecycles by treating infrastructure as 
        code.
     
-  - Shield 
-    - Managed DDoS protection service.
-      that safeguards applications running on AWS.
-    - 2 tiers of support - Standard and Advanced. Standard is automatic,
-      at no additional charge.
-
    - Web Hosting
      - Provides low-cost ways to deliver websites and web applications.
      - Use cases include a marketing, rich-media or ecommerce website. 
@@ -227,13 +221,6 @@
        - Simple Static Website Hosting
        - Enterprise Web Hosting
  
-   - Inspector
-     - Automated *security assessment service* that helps improve the 
-       security and compliance of applications deployed on AWS.
-     - Automatically checks applications for exposure, vulnerabilities,
-       and deviations from best practices.
-     - Similar to Nessus Scan product.
-
 
 ## Security - Access Control and Management
    - Integration and federation with corporate directories
@@ -263,4 +250,28 @@
      - Makes it easy to centrally manage access to multiple AWS 
        accounts, business applications and provide users with SSO access 
        to all their assigned accounts.
+
+
+## Security - Data Encryption
+   - KMS (Key Management Service)
+     - Secrets management for other AWS services.
+     - Can use to protect your own applications that use AWS.
+
+   - CLoudHSM (Hardware-based cryptographic key storage)
+
+
+## Security - Other
+  - Shield 
+    - Managed DDoS protection service.
+      that safeguards applications running on AWS.
+    - 2 tiers of support - Standard and Advanced. Standard is automatic,
+      at no additional charge.
+
+   - Inspector
+     - Automated *security assessment service* that helps improve the 
+       security and compliance of applications deployed on AWS.
+     - Automatically checks applications for exposure, vulnerabilities,
+       and deviations from best practices.
+     - Similar to Nessus Scan product.
+
 
