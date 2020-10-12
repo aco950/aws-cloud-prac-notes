@@ -1,12 +1,12 @@
-- Well-Architected Framework (5 Pillars)
-  - Security
-  - Reliability
-  - Performance Efficiency
-  - Cost Optimization
-  - Operational Excellence
+## Well-Architected Framework (5 Pillars)
+   - Security
+   - Reliability
+   - Performance Efficiency
+   - Cost Optimization
+   - Operational Excellence
 
 
-- Core Services
+## Core Services
   - Elastic Cloud Compute (EC2)
     - Pay as-you-go server resources.
 
@@ -18,7 +18,7 @@
       and retrieval.
 
 
-- Global Infrastructure
+## Global Infrastructure
   - Regions
     - Host 2 or more AZs.
     - Completely separate entities from one another.
