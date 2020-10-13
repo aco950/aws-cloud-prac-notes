@@ -114,12 +114,22 @@
      - Addresses the issues with large-scale data transfers including
        high network costs, long transfer times and security concerns.
      - Can be used to migrate PB-scale data into S3.
+
    - S3 (Simple Storage Service)
+
    - EBS (Elastic Block Store) 
+
    - EFS (Elastic File System)
      - Scalable, fully-managed elastic NFS file system for use with AWS
        services.
      - 2 classes: standard storage class and infrequent access class.
+ 
+   - Glacier (aka S3 Glacier)
+     - Data archiving and long-term backup low-cost storage solution.
+     - Secure, durable and flexible.
+     - Part of S3.
+     - S3 Glacier Deep Archive is for data that is accessed once or 
+       twice a year.
 
 
 ## Integrated Services - Other Products
@@ -234,6 +244,12 @@
        data mining, log file analysis, machine learning, scientific
        simulation and data warehousing. 
 
+   - Lightsail
+     - Easiest way to launch and manage a virtual private server (VPS).
+     - Similar to launching a node on Linode/Digital Ocean.
+     - Included is a static IP, DNS management, SSD-backed storage for a
+       low, predicatable price ($5 for 750 hours per month).
+
 
 ## Security - Access Control and Management
    - Integration and federation with corporate directories
@@ -290,16 +306,41 @@
 
 ## Pricing - Fundamentals
    - You only pay for what you need/consume.
+     - You do not pay when things are not running.
    - No contracts/termination fees.
    - Pay less per unit as you grow.
    - Storage 
      - The more you use, the less you pay.
      - Inbound data transfer is always free.
+   - Cost drivers:
+     - Compute
+     - Storage
+     - Outbound data transfer
 
 
-## Pricing - Options
-   - Purchase Types:
-     - On-demand instances (compute capacity by the hour and second)
-     - Reserved instances (low or no upfront payment instances)
-     - Spot instances (bid for unused capacity)
+## Pricing - Options and Pricing Models
+   - On-demand instances 
+     - No long-term commitments or upfront payments
+     - Compute capacity by the hour and second
+
+   - Dedicated instances
+     - Available with EC2 that is run in a VPC on hardware dedicated to 
+       a single consumer
+
+   - Spot instances 
+     - Allows you to purchase spare computing capacity at discounted 
+       hourly rates.
+     - Bid for unused capacity.
+     - No upfront commitments.
+
+   - Reserved instances
+     - Provide you with the ability to receive a greater discount - up
+       to 75% by paying for capacity ahead of time.
+
+
+## Pricing - Support Plans
+   - Basic Support
+   - Developer Support
+   - Business Support
+   - Enterprise Support
 
