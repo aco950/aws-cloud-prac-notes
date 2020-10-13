@@ -105,6 +105,7 @@
      - Use to migrate data into AWS, or between on-premises instances.
      - Migrations can be one-time, or ongoing to sync existing data.
 
+
 ## Integrated Services - Storage Products
    - Snowball
      - Petabyte-scale data transport solution that uses secure 
@@ -119,6 +120,7 @@
      - Scalable, fully-managed elastic NFS file system for use with AWS
        services.
      - 2 classes: standard storage class and infrequent access class.
+
 
 ## Integrated Services - Other Products
    - Application Load Balancer (part of ELB - Elastic Load Balancer)
@@ -221,6 +223,17 @@
        - Simple Static Website Hosting
        - Enterprise Web Hosting
  
+   - Kinesis
+     - Capture, process, and store video streams for analytics and
+       machine learning.
+
+   - EMR
+     - Web service that simplifies the processing of large amounts of
+       data efficiently.
+     - Use Hadoop and other AWS products to do web indexing, data
+       data mining, log file analysis, machine learning, scientific
+       simulation and data warehousing. 
+
 
 ## Security - Access Control and Management
    - Integration and federation with corporate directories
@@ -274,4 +287,19 @@
        and deviations from best practices.
      - Similar to Nessus Scan product.
 
+
+## Pricing - Fundamentals
+   - You only pay for what you need/consume.
+   - No contracts/termination fees.
+   - Pay less per unit as you grow.
+   - Storage 
+     - The more you use, the less you pay.
+     - Inbound data transfer is always free.
+
+
+## Pricing - Options
+   - Purchase Types:
+     - On-demand instances (compute capacity by the hour and second)
+     - Reserved instances (low or no upfront payment instances)
+     - Spot instances (bid for unused capacity)
 
