@@ -345,3 +345,10 @@
    - Business Support
    - Enterprise Support
 
+## Pricing Calculator
+   - Lets you explore AWS services and create an estimate for the cost
+     of your use cases on AWS.
+   - You can model your solutions before building them, explore the
+     price points and calculations behind your estimate, and then find
+     the available instance types and contract terms to meet your needs.
+
