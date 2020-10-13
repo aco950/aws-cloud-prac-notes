@@ -249,6 +249,7 @@
      - Similar to launching a node on Linode/Digital Ocean.
      - Included is a static IP, DNS management, SSD-backed storage for a
        low, predicatable price ($5 for 750 hours per month).
+     - You can scale up and add features as your needs grow.
 
 
 ## Security - Access Control and Management
