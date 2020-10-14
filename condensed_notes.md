@@ -304,6 +304,15 @@
        - Increase fault tolerance
        - Check for service limit usage
 
+    - Direct Connect
+      - Makes it easy to set up a dedicated network connection from your
+        premises to AWS.
+      - You can establish private connectivity between AWS and your 
+        datacenter, office, or colocation environment over a standard
+        Ethernet fiber-optic cable.
+      - Reduce network costs, increased throughput, and more consistent
+        network experience than Internet-based connections.
+
    
 ## Security - Access Control and Management
    - Integration and federation with corporate directories
