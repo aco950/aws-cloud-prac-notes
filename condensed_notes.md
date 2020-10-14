@@ -207,6 +207,24 @@
        utilization, and get a unified view of operational health.
      - Set alarms, visualize metrics.
 
+   - CloudTrail
+     - Enables governance, compliance, operational auditing, and risk
+       auditing of your AWS account.
+     - Benefits:
+       - Simplified compliance
+       - Visibility into user and resource activity.
+       - Security analysis and troubleshooting.
+       - Security automation.
+
+   - CloudWatch vs CloudTrail:
+     - CloudWatch reports on application logs and metrics, while 
+       CloudTrail logs provide you specific information on what occured 
+       in your AWS account.
+     - CloudTrail focuses more on API calls made in your AWS account,
+       (who made the request, the services used, the actions performed,
+       parameters for the actions, and the response elements returned by
+       the AWS service).
+
    - CloudFront
      - CDN (Content Delivery Network).
      - Securely delivers data, videos, applications and APIs to 
@@ -256,6 +274,17 @@
      - Allows users to create abstract representations of IoT devices
        and concepts.
      - Expressed with GraphQL syntax.
+
+   - Trusted Advisor
+     - Online tool that provides real-time guidance to help you 
+       provision your resources following AWS best practices.
+     - Benefits:
+       - Cost optimization
+       - Improve performance
+       - Improve security
+       - Increase fault tolerance
+       - Check for service limit usage
+
    
 
 
