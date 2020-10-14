@@ -250,6 +250,13 @@
      - Included is a static IP, DNS management, SSD-backed storage for a
        low, predicatable price ($5 for 750 hours per month).
      - You can scale up and add features as your needs grow.
+   
+
+   - TDM (AWS IoT Things Graph Data Model)
+     - Allows users to create abstract representations of IoT devices
+       and concepts.
+     - Expressed with GraphQL syntax.
+   
 
 
 ## Security - Access Control and Management
@@ -344,6 +351,7 @@
    - Developer Support
    - Business Support
    - Enterprise Support
+
 
 ## Pricing Calculator
    - Lets you explore AWS services and create an estimate for the cost
