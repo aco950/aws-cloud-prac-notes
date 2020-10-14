@@ -62,7 +62,7 @@
 
 ## Integrated Services - Database Products
    - RDS (Relational Database Service)
-     - Makes it easy to set up, operator, and scale a relational 
+     - Makes it easy to set up, operate, and scale a relational 
        database in the cloud.
      - You can choose from the following database engines:
        - Amazon Aurora
