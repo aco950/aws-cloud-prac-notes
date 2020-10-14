@@ -137,8 +137,9 @@
      - Network Load Balancer (NLB)
        - Best suited for TCP/UDP load balancing, where extreme 
          performance is required.
-       - Operates at Layer 4 (static IPs).
+       - Operates at Layer 4 (static IPs, destination ports).
        - Routes traffic to targets within VPC. 
+       - NLB cannot assure application availability.
 
      - Application Load Balancer (ALB)
        - Best suited for load balancing of HTTP/HTTPS traffic and 
