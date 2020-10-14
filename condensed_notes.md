@@ -133,12 +133,31 @@
 
 
 ## Integrated Services - Other Products
-   - Application Load Balancer (part of ELB - Elastic Load Balancer)
-     - Serves as the single point of contact for clients. 
-    - Distributes incoming application traffic across multiple targets,
-      such as EC2 instances in multiple AZs.
-    - You can add one or more listeners to your load balancer.
-    - Support for path-based routing (based on the URI in the request).
+   - Elastic Load Balancing (ELB):
+     - Network Load Balancer (NLB)
+       - Best suited for TCP/UDP load balancing, where extreme 
+         performance is required.
+       - Operates at Layer 4 (static IPs).
+       - Routes traffic to targets within VPC. 
+
+     - Application Load Balancer (ALB)
+       - Best suited for load balancing of HTTP/HTTPS traffic and 
+         provides advanced request routing that is targeted at the 
+         delivery of modern application architectures, including 
+         microservices and containers.
+       - Operates at Layer 7.
+       - Routes traffic to targets within VPC based on the content of 
+         the request. 
+         - Support for path-based routing (based on the URI in the 
+           request).
+       - Distributes incoming application traffic across multiple 
+         targets, such as EC2 instances in multiple AZs.
+       - You can add one or more listeners to your load balancer.
+
+     - Classic Load Balancer (CLB)
+       - Deprecated, only for applications built within the EC2-Classic
+         network (avoid).
+       - Operates at both the request (L7) and connection (L4) level.
 
    - Auto Scaling
      - Monitors your applications and automatically adjusts capacity in
@@ -268,7 +287,6 @@
      - Included is a static IP, DNS management, SSD-backed storage for a
        low, predicatable price ($5 for 750 hours per month).
      - You can scale up and add features as your needs grow.
-   
 
    - TDM (AWS IoT Things Graph Data Model)
      - Allows users to create abstract representations of IoT devices
@@ -286,8 +304,6 @@
        - Check for service limit usage
 
    
-
-
 ## Security - Access Control and Management
    - Integration and federation with corporate directories
 
