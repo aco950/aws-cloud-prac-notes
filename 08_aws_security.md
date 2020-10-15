@@ -39,7 +39,7 @@
   * Key management options
     * AWS Key Management Service (KMS)
   * Hardware-based cryptographic key storage options
-    * AWS CloudHSM
+    * AWS CloudHSM (Hardware Security Module)
 * Access Control and Management
   * Identity and Access Management (IAM)
   * Multi-factor authentication (MFA)
