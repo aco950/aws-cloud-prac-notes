@@ -91,7 +91,7 @@
   * Services inherent security built into the network.
 * Integrates with numerous AWS services
 * Features:
-  * Builds on high-availabiltiy of AWS regions and AZs.
+  * Builds on high-availability of AWS regions and AZs.
     * VPCs live within a region ("region-based")
     * Multiple VPCs per account
   * Subnets
