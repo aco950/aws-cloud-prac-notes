@@ -350,6 +350,7 @@
      - Can use to protect your own applications that use AWS.
 
    - CLoudHSM (Hardware-based cryptographic key storage)
+     - HSM stands for Hardware Security Module
 
 
 ## Security - Other
