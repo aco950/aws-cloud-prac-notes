@@ -313,13 +313,18 @@
      - Reduce network costs, increased throughput, and more consistent
        network experience than Internet-based connections.
 
+   - Neptune
+     - Managed graph database product.
    
+
 ## Security - Access Control and Management
    - Integration and federation with corporate directories
 
    - IAM (Identity and Access Management)
      - User - permanent named operator.
+       - Users can belong to multiple groups.
      - Group - collection of users.
+       - Groups cannot be nested.
      - Role - authentication method (nothing to do with permissions).
      - Policy Document - permissions-based JSON document that can be 
        attached to a user, group, or role. Work is done via API.
