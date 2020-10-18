@@ -316,6 +316,12 @@
    - Neptune
      - Managed graph database product.
    
+   - Storage Gateway
+     - Low-latency hybrid cloud storage service that gives you 
+       on-premise access to virtually unlimited cloud storage.
+       - File Gateway
+       - Tape Gateway
+       - Volume Gateway
 
 ## Security - Access Control and Management
    - Integration and federation with corporate directories
@@ -328,6 +334,8 @@
      - Role - authentication method (nothing to do with permissions).
      - Policy Document - permissions-based JSON document that can be 
        attached to a user, group, or role. Work is done via API.
+     - NOTE: IAM can be integrated with existing directory systems via
+       AWS Directory Service.
 
    - MFA (Multi-Factor Authentication)
      - Adds an extra layer of protection on top of your user name and
